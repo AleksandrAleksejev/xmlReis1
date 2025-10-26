@@ -1,0 +1,1021 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="reis.xsl"?>
+
+<reisedata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="reis.xsd">
+	<trip id="1">
+		<destination>Barcelona, Spain</destination>
+		<rating>4.7</rating>
+		<transport>
+			<flight>
+				<airport>BCN</airport>
+				<number>VY123</number>
+				<price>220.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Hotel Barcelona</name>
+				<stars>4</stars>
+				<price>450.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>120.00</total>
+		</excursions>
+		<meals>
+			<total>80.00</total>
+		</meals>
+		<insurance>
+			<total>30.00</total>
+		</insurance>
+		<other>
+			<total>25.00</total>
+		</other>
+		<note>Late spring special</note>
+	</trip>
+
+	<trip id="2">
+		<destination>Rome, Italy</destination>
+		<rating>4.6</rating>
+		<transport>
+			<flight>
+				<airport>FCO</airport>
+				<number>AZ345</number>
+				<price>180.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Hotel Roma</name>
+				<stars>3</stars>
+				<price>380.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>90.00</total>
+		</excursions>
+		<meals>
+			<total>70.00</total>
+		</meals>
+		<insurance>
+			<total>25.00</total>
+		</insurance>
+		<other>
+			<total>20.00</total>
+		</other>
+		<note>City tour included</note>
+	</trip>
+
+	<trip id="3">
+		<destination>Paris, France</destination>
+		<rating>4.8</rating>
+		<transport>
+			<flight>
+				<airport>CDG</airport>
+				<number>AF789</number>
+				<price>250.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Hotel Paris</name>
+				<stars>5</stars>
+				<price>600.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>150.00</total>
+		</excursions>
+		<meals>
+			<total>100.00</total>
+		</meals>
+		<insurance>
+			<total>40.00</total>
+		</insurance>
+		<other>
+			<total>30.00</total>
+		</other>
+		<note>Romantic package</note>
+	</trip>
+
+	<trip id="4">
+		<destination>Prague, Czechia</destination>
+		<rating>4.2</rating>
+		<transport>
+			<flight>
+				<airport>PRG</airport>
+				<number>OK456</number>
+				<price>140.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Hotel Praha</name>
+				<stars>4</stars>
+				<price>300.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>60.00</total>
+		</excursions>
+		<meals>
+			<total>50.00</total>
+		</meals>
+		<insurance>
+			<total>20.00</total>
+		</insurance>
+		<other>
+			<total>15.00</total>
+		</other>
+	</trip>
+
+	<trip id="5">
+		<destination>Berlin, Germany</destination>
+		<rating>4.1</rating>
+		<transport>
+			<flight>
+				<airport>BER</airport>
+				<number>LH222</number>
+				<price>160.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Hotel Berlin</name>
+				<stars>4</stars>
+				<price>320.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>70.00</total>
+		</excursions>
+		<meals>
+			<total>60.00</total>
+		</meals>
+		<insurance>
+			<total>20.00</total>
+		</insurance>
+		<other>
+			<total>10.00</total>
+		</other>
+	</trip>
+
+	<trip id="6">
+		<destination>Vienna, Austria</destination>
+		<rating>4.3</rating>
+		<transport>
+			<flight>
+				<airport>VIE</airport>
+				<number>OS333</number>
+				<price>155.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Hotel Vienna</name>
+				<stars>4</stars>
+				<price>340.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>80.00</total>
+		</excursions>
+		<meals>
+			<total>55.00</total>
+		</meals>
+		<insurance>
+			<total>22.00</total>
+		</insurance>
+		<other>
+			<total>12.00</total>
+		</other>
+	</trip>
+
+	<trip id="7">
+		<destination>Amsterdam, NL</destination>
+		<rating>4.5</rating>
+		<transport>
+			<flight>
+				<airport>AMS</airport>
+				<number>KL111</number>
+				<price>210.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Canal Hotel</name>
+				<stars>4</stars>
+				<price>410.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>110.00</total>
+		</excursions>
+		<meals>
+			<total>75.00</total>
+		</meals>
+		<insurance>
+			<total>28.00</total>
+		</insurance>
+		<other>
+			<total>18.00</total>
+		</other>
+		<note>Bike tour</note>
+	</trip>
+
+	<trip id="8">
+		<destination>Lisbon, Portugal</destination>
+		<rating>4.0</rating>
+		<transport>
+			<flight>
+				<airport>LIS</airport>
+				<number>TP222</number>
+				<price>200.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Lisbon Inn</name>
+				<stars>3</stars>
+				<price>290.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>70.00</total>
+		</excursions>
+		<meals>
+			<total>50.00</total>
+		</meals>
+		<insurance>
+			<total>20.00</total>
+		</insurance>
+		<other>
+			<total>10.00</total>
+		</other>
+	</trip>
+
+	<trip id="9">
+		<destination>Reykjavik, Iceland</destination>
+		<rating>4.9</rating>
+		<transport>
+			<flight>
+				<airport>KEF</airport>
+				<number>FI505</number>
+				<price>420.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Nordic Hotel</name>
+				<stars>4</stars>
+				<price>700.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>200.00</total>
+		</excursions>
+		<meals>
+			<total>120.00</total>
+		</meals>
+		<insurance>
+			<total>50.00</total>
+		</insurance>
+		<other>
+			<total>40.00</total>
+		</other>
+		<note>Northern lights option</note>
+	</trip>
+
+	<trip id="10">
+		<destination>Oslo, Norway</destination>
+		<rating>4.4</rating>
+		<transport>
+			<flight>
+				<airport>OSL</airport>
+				<number>SK777</number>
+				<price>300.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Fjord Hotel</name>
+				<stars>4</stars>
+				<price>520.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>130.00</total>
+		</excursions>
+		<meals>
+			<total>90.00</total>
+		</meals>
+		<insurance>
+			<total>35.00</total>
+		</insurance>
+		<other>
+			<total>25.00</total>
+		</other>
+	</trip>
+
+	<trip id="11">
+		<destination>Stockholm, Sweden</destination>
+		<rating>4.2</rating>
+		<transport>
+			<flight>
+				<airport>ARN</airport>
+				<number>SK123</number>
+				<price>280.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Royal Hotel</name>
+				<stars>5</stars>
+				<price>540.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>120.00</total>
+		</excursions>
+		<meals>
+			<total>95.00</total>
+		</meals>
+		<insurance>
+			<total>30.00</total>
+		</insurance>
+		<other>
+			<total>20.00</total>
+		</other>
+	</trip>
+
+	<trip id="12">
+		<destination>Helsinki, Finland</destination>
+		<rating>4.1</rating>
+		<transport>
+			<flight>
+				<airport>HEL</airport>
+				<number>AY321</number>
+				<price>260.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Sauna Hotel</name>
+				<stars>4</stars>
+				<price>480.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>100.00</total>
+		</excursions>
+		<meals>
+			<total>85.00</total>
+		</meals>
+		<insurance>
+			<total>28.00</total>
+		</insurance>
+		<other>
+			<total>18.00</total>
+		</other>
+	</trip>
+
+	<trip id="13">
+		<destination>Budapest, Hungary</destination>
+		<rating>4.0</rating>
+		<transport>
+			<flight>
+				<airport>BUD</airport>
+				<number>W6 221</number>
+				<price>170.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Thermal Hotel</name>
+				<stars>4</stars>
+				<price>310.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>65.00</total>
+		</excursions>
+		<meals>
+			<total>55.00</total>
+		</meals>
+		<insurance>
+			<total>18.00</total>
+		</insurance>
+		<other>
+			<total>12.00</total>
+		</other>
+	</trip>
+
+	<trip id="14">
+		<destination>Krakow, Poland</destination>
+		<rating>3.9</rating>
+		<transport>
+			<flight/>
+			<train>
+				<price>45.00</price>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Old Town Hotel</name>
+				<stars>3</stars>
+				<price>200.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>50.00</total>
+		</excursions>
+		<meals>
+			<total>40.00</total>
+		</meals>
+		<insurance>
+			<total>15.00</total>
+		</insurance>
+		<other>
+			<total>8.00</total>
+		</other>
+		<note>Train only</note>
+	</trip>
+
+	<trip id="15">
+		<destination>Athens, Greece</destination>
+		<rating>4.3</rating>
+		<transport>
+			<flight>
+				<airport>ATH</airport>
+				<number>A3 989</number>
+				<price>230.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Acropolis Hotel</name>
+				<stars>4</stars>
+				<price>350.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>90.00</total>
+		</excursions>
+		<meals>
+			<total>65.00</total>
+		</meals>
+		<insurance>
+			<total>25.00</total>
+		</insurance>
+		<other>
+			<total>15.00</total>
+		</other>
+	</trip>
+
+	<trip id="16">
+		<destination>Dubrovnik, Croatia</destination>
+		<rating>4.4</rating>
+		<transport>
+			<flight>
+				<airport>DBV</airport>
+				<number>OU 170</number>
+				<price>210.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Seaside Hotel</name>
+				<stars>4</stars>
+				<price>420.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>110.00</total>
+		</excursions>
+		<meals>
+			<total>70.00</total>
+		</meals>
+		<insurance>
+			<total>25.00</total>
+		</insurance>
+		<other>
+			<total>20.00</total>
+		</other>
+	</trip>
+
+	<trip id="17">
+		<destination>London, UK</destination>
+		<rating>4.6</rating>
+		<transport>
+			<flight>
+				<airport>LHR</airport>
+				<number>BA150</number>
+				<price>270.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>London Suites</name>
+				<stars>5</stars>
+				<price>650.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>160.00</total>
+		</excursions>
+		<meals>
+			<total>110.00</total>
+		</meals>
+		<insurance>
+			<total>45.00</total>
+		</insurance>
+		<other>
+			<total>35.00</total>
+		</other>
+		<note>Theatre ticket</note>
+	</trip>
+
+	<trip id="18">
+		<destination>Dublin, Ireland</destination>
+		<rating>4.0</rating>
+		<transport>
+			<flight>
+				<airport>DUB</airport>
+				<number>EI444</number>
+				<price>190.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Green Hotel</name>
+				<stars>3</stars>
+				<price>330.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>85.00</total>
+		</excursions>
+		<meals>
+			<total>60.00</total>
+		</meals>
+		<insurance>
+			<total>22.00</total>
+		</insurance>
+		<other>
+			<total>14.00</total>
+		</other>
+	</trip>
+
+	<trip id="19">
+		<destination>Edinburgh, UK</destination>
+		<rating>4.1</rating>
+		<transport>
+			<flight/>
+			<train>
+				<price>60.00</price>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Castle Inn</name>
+				<stars>4</stars>
+				<price>360.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>80.00</total>
+		</excursions>
+		<meals>
+			<total>65.00</total>
+		</meals>
+		<insurance>
+			<total>20.00</total>
+		</insurance>
+		<other>
+			<total>10.00</total>
+		</other>
+		<note>Train included</note>
+	</trip>
+
+	<trip id="20">
+		<destination>Gran Canaria, Spain</destination>
+		<rating>4.2</rating>
+		<transport>
+			<flight>
+				<airport>LPA</airport>
+				<number>IB210</number>
+				<price>240.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Beach Hotel</name>
+				<stars>4</stars>
+				<price>400.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>100.00</total>
+		</excursions>
+		<meals>
+			<total>90.00</total>
+		</meals>
+		<insurance>
+			<total>30.00</total>
+		</insurance>
+		<other>
+			<total>15.00</total>
+		</other>
+	</trip>
+
+	<trip id="21">
+		<destination>Malta, Valletta</destination>
+		<rating>4.0</rating>
+		<transport>
+			<flight>
+				<airport>MLA</airport>
+				<number>KM333</number>
+				<price>210.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Harbor Hotel</name>
+				<stars>3</stars>
+				<price>320.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>70.00</total>
+		</excursions>
+		<meals>
+			<total>60.00</total>
+		</meals>
+		<insurance>
+			<total>20.00</total>
+		</insurance>
+		<other>
+			<total>12.00</total>
+		</other>
+	</trip>
+
+	<trip id="22">
+		<destination>Zermatt, Switzerland</destination>
+		<rating>4.7</rating>
+		<transport>
+			<flight>
+				<airport>ZRH</airport>
+				<number>LX999</number>
+				<price>340.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Mountain Hotel</name>
+				<stars>4</stars>
+				<price>680.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>140.00</total>
+		</excursions>
+		<meals>
+			<total>100.00</total>
+		</meals>
+		<insurance>
+			<total>40.00</total>
+		</insurance>
+		<other>
+			<total>30.00</total>
+		</other>
+		<note>Ski pass optional</note>
+	</trip>
+
+	<trip id="23">
+		<destination>Munich, Germany</destination>
+		<rating>4.1</rating>
+		<transport>
+			<flight/>
+			<train>
+				<price>35.00</price>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>City Hotel</name>
+				<stars>3</stars>
+				<price>300.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>60.00</total>
+		</excursions>
+		<meals>
+			<total>55.00</total>
+		</meals>
+		<insurance>
+			<total>18.00</total>
+		</insurance>
+		<other>
+			<total>10.00</total>
+		</other>
+		<note>Train only</note>
+	</trip>
+
+	<trip id="24">
+		<destination>Budva, Montenegro</destination>
+		<rating>3.8</rating>
+		<transport>
+			<flight>
+				<airport>TGD</airport>
+				<number>YM222</number>
+				<price>180.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Adriatic Hotel</name>
+				<stars>3</stars>
+				<price>270.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>55.00</total>
+		</excursions>
+		<meals>
+			<total>45.00</total>
+		</meals>
+		<insurance>
+			<total>15.00</total>
+		</insurance>
+		<other>
+			<total>10.00</total>
+		</other>
+	</trip>
+
+	<trip id="25">
+		<destination>Tallinn, Estonia</destination>
+		<rating>4.3</rating>
+		<transport>
+			<flight>
+				<airport>TLL</airport>
+				<number>BT100</number>
+				<price>120.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Old City Hotel</name>
+				<stars>4</stars>
+				<price>280.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>60.00</total>
+		</excursions>
+		<meals>
+			<total>50.00</total>
+		</meals>
+		<insurance>
+			<total>15.00</total>
+		</insurance>
+		<other>
+			<total>8.00</total>
+		</other>
+	</trip>
+
+	<trip id="26">
+		<destination>Riga, Latvia</destination>
+		<rating>4.0</rating>
+		<transport>
+			<flight/>
+			<train>
+				<price>30.00</price>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Baltic Hotel</name>
+				<stars>3</stars>
+				<price>240.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>50.00</total>
+		</excursions>
+		<meals>
+			<total>45.00</total>
+		</meals>
+		<insurance>
+			<total>12.00</total>
+		</insurance>
+		<other>
+			<total>8.00</total>
+		</other>
+		<note>Train only</note>
+	</trip>
+
+	<trip id="27">
+		<destination>Vilnius, Lithuania</destination>
+		<rating>3.9</rating>
+		<transport>
+			<flight/>
+			<train>
+				<price>25.00</price>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Gediminas Hotel</name>
+				<stars>3</stars>
+				<price>220.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>45.00</total>
+		</excursions>
+		<meals>
+			<total>40.00</total>
+		</meals>
+		<insurance>
+			<total>10.00</total>
+		</insurance>
+		<other>
+			<total>6.00</total>
+		</other>
+		<note>Train only</note>
+	</trip>
+
+	<trip id="28">
+		<destination>New York, USA</destination>
+		<rating>4.8</rating>
+		<transport>
+			<flight>
+				<airport>JFK</airport>
+				<number>DL400</number>
+				<price>550.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Manhattan Hotel</name>
+				<stars>5</stars>
+				<price>1200.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>300.00</total>
+		</excursions>
+		<meals>
+			<total>200.00</total>
+		</meals>
+		<insurance>
+			<total>80.00</total>
+		</insurance>
+		<other>
+			<total>60.00</total>
+		</other>
+		<note>Transatlantic</note>
+	</trip>
+
+	<trip id="29">
+		<destination>Dubai, UAE</destination>
+		<rating>4.6</rating>
+		<transport>
+			<flight>
+				<airport>DXB</airport>
+				<number>EK205</number>
+				<price>700.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Marina Hotel</name>
+				<stars>5</stars>
+				<price>900.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>250.00</total>
+		</excursions>
+		<meals>
+			<total>150.00</total>
+		</meals>
+		<insurance>
+			<total>60.00</total>
+		</insurance>
+		<other>
+			<total>40.00</total>
+		</other>
+		<note>Luxury option</note>
+	</trip>
+
+	<trip id="30">
+		<destination>Tokyo, Japan</destination>
+		<rating>4.9</rating>
+		<transport>
+			<flight>
+				<airport>NRT</airport>
+				<number>JL800</number>
+				<price>900.00</price>
+			</flight>
+			<train>
+				<price/>
+			</train>
+		</transport>
+		<accommodation>
+			<hotel>
+				<name>Shinjuku Hotel</name>
+				<stars>5</stars>
+				<price>1100.00</price>
+			</hotel>
+		</accommodation>
+		<excursions>
+			<total>280.00</total>
+		</excursions>
+		<meals>
+			<total>200.00</total>
+		</meals>
+		<insurance>
+			<total>70.00</total>
+		</insurance>
+		<other>
+			<total>50.00</total>
+		</other>
+		<note>Long haul</note>
+	</trip>
+
+</reisedata>
